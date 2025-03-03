@@ -1,6 +1,6 @@
 # Furi - Fast HTTP Server framework
 
-<img src="./images/nutty-squirrel.jpeg" width="65%" alt="Nutty Squirrel">
+<img src="./images/pc-squirrel.jpeg" width="70%" alt="Nutty Squirrel">
 
 ## Examples Repository
 
