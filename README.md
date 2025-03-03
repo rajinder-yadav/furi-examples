@@ -1,6 +1,6 @@
 # Furi - Fast HTTP Server framework
 
-![image](./images/flying-squirrel2.webp)
+<img src="./images/nutty-squirrel.jpeg" width="50%" alt="Nutty Squirrel">
 
 ## Examples Repository
 
@@ -8,6 +8,24 @@ Furi is a fast HTTP server framework built on top Node.js.
 Furi is coded from the ground up in TypeScript.
 
 Furi is a framework use to develop HTTP servers with both JavaScript and TypeScript.
+
+## NPM package
+
+The [Furi framework package](https://www.npmjs.com/package/@furi-server/furi) is available on NPM.
+
+You can install the Furi package:
+
+Using npm:
+
+```sh
+npm install @furi-server/furi
+```
+
+Using pnpm:
+
+```sh
+pnpm install @furi-server/furi
+```
 
 ## Requirements
 
