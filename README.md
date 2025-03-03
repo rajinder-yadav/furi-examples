@@ -4,10 +4,9 @@
 
 ## Examples Repository
 
-Furi is a fast HTTP server framework built on top Node.js.
-Furi is coded from the ground up in TypeScript.
+Furi is a modern fast HTTP server framework built on top Node.js. It is coded from the ground up in TypeScript.
 
-Furi is a framework use to develop HTTP servers with both JavaScript and TypeScript.
+Develop HTTP servers using both JavaScript and TypeScript.
 
 ## NPM package
 
