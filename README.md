@@ -21,6 +21,7 @@ npm install @furi-server/furi
 ```
 
 Using pnpm:
+Using pnpm:
 
 ```sh
 pnpm install @furi-server/furi
@@ -53,7 +54,3 @@ Deno based:
 deno install
 deno run dev
 ```
-
-## Updating dependencies
-
-There is a bash script, "update.sh", that you may use to update dependencies in all the example folders. Most likely you will not need to use this script.

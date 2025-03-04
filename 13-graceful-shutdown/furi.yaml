@@ -3,8 +3,8 @@
 #   host: localhost
 #   env: development
 
-# logger:
-#   enabled: true
+logger:
+  enabled: true
 #   terminal: true
 #   flushPeriod: 1000
 #   logFile: furi.log

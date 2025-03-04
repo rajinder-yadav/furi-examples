@@ -1,7 +1,13 @@
 # server:
-#   # port: 3333
+#   port: 3030
 #   host: localhost
-#   env: staging
+#   env: development
 
 # logger:
 #   enabled: true
+#   terminal: true
+#   flushPeriod: 1000
+#   logFile: furi.log
+#   maxCount: 100
+#   mode: stream
+#   level: info
