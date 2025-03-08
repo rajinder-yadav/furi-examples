@@ -3,8 +3,8 @@
   "specifiers": {
     "jsr:@std/assert@1": "1.0.11",
     "jsr:@std/internal@^1.0.5": "1.0.5",
-    "npm:@furi-server/furi@~0.2.9": "0.2.9",
-    "npm:@types/node@^22.13.9": "22.13.9"
+    "npm:@furi-server/furi@~0.4.1": "0.4.1",
+    "npm:@types/node@^22.13.10": "22.13.10"
   },
   "jsr": {
     "@std/assert@1.0.11": {
@@ -28,15 +28,15 @@
         "which"
       ]
     },
-    "@furi-server/furi@0.2.9": {
-      "integrity": "sha512-nUfN2KYyV100a0OfYdNrk5riuPqZGd2sUf+Gu0ZnXvSdsK+fX+BNK8BpfbRFjGOKTulvgr4RBKDeDYhtZ7kaOg==",
+    "@furi-server/furi@0.4.1": {
+      "integrity": "sha512-djNsZFFru8GirKqzmf+oslKePNDn7gtCsBjucvIYNc0epq3cPYaTlmIGixaluyKEZ+sVrzglQLzqOKXDJxQ3uw==",
       "dependencies": [
         "@deno/shim-deno",
         "yaml"
       ]
     },
-    "@types/node@22.13.9": {
-      "integrity": "sha512-acBjXdRJ3A6Pb3tqnw9HZmyR3Fiol3aGxRCK1x3d+6CDAMjl7I649wpSd+yNURCjbOUGu9tqtLKnTGxmK6CyGw==",
+    "@types/node@22.13.10": {
+      "integrity": "sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==",
       "dependencies": [
         "undici-types"
       ]
@@ -60,8 +60,8 @@
   "workspace": {
     "dependencies": [
       "jsr:@std/assert@1",
-      "npm:@furi-server/furi@~0.2.9",
-      "npm:@types/node@^22.13.9"
+      "npm:@furi-server/furi@~0.4.1",
+      "npm:@types/node@^22.13.10"
     ]
   }
 }

@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "@furi-server/furi": "file:../../furi/dist"
+    "@furi-server/furi": "^0.4.1"
   }
 }
