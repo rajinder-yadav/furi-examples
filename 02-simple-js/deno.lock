@@ -3,7 +3,7 @@
   "specifiers": {
     "jsr:@std/assert@1": "1.0.11",
     "jsr:@std/internal@^1.0.5": "1.0.5",
-    "npm:@furi-server/furi@~0.4.1": "0.4.1"
+    "npm:@furi-server/furi@~0.4.2": "0.4.2"
   },
   "jsr": {
     "@std/assert@1.0.11": {
@@ -27,8 +27,8 @@
         "which"
       ]
     },
-    "@furi-server/furi@0.4.1": {
-      "integrity": "sha512-djNsZFFru8GirKqzmf+oslKePNDn7gtCsBjucvIYNc0epq3cPYaTlmIGixaluyKEZ+sVrzglQLzqOKXDJxQ3uw==",
+    "@furi-server/furi@0.4.2": {
+      "integrity": "sha512-iAyCyLFP3cUF6dPInnRE6ymFvi65xg1cnaA4dtpc4K2tEOk3/FlaKEWovT+9NctunoMxCWqokm8Gug32IV1w/Q==",
       "dependencies": [
         "@deno/shim-deno",
         "yaml"
@@ -50,7 +50,7 @@
   "workspace": {
     "dependencies": [
       "jsr:@std/assert@1",
-      "npm:@furi-server/furi@~0.4.1"
+      "npm:@furi-server/furi@~0.4.2"
     ]
   }
 }
