@@ -1,0 +1,19 @@
+### Test JSON
+POST http://localhost:3030/
+Content-Type: application/json
+
+{
+  "message": "Hello from Furi!"
+}
+
+### Test Text
+POST http://localhost:3030/
+Content-Type: text/plain
+
+"Hello from Furi!"
+
+### Test Form-urlencoded
+POST http://localhost:3030/
+Content-Type: application/x-www-form-urlencoded
+
+message=Hello+from+Furi!&department=Engineering
