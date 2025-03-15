@@ -1,18 +1,26 @@
 /**
- * Test
- * curl -v -X OPTIONS http://localhost:3030
- * *
- * Optional CORS object properties with allowed types.
+ * Furi - Fast Uniform Resource Identifier.
  *
- * origin?: string | string[];
- * methods?: string[];
- * headers?: string[];
- * credentials?: boolean;
- * maxAge?: number;
+ * The Fast and Furious Node.js Router.
+ * Copyright(c) 2016, 2025 Rajinder Yadav.
  *
- *
+ * Labs DevMentor.org Corp. <info@devmentor.org>
+ * This code is released as-is without warranty under the "GNU GENERAL PUBLIC LICENSE".
  */
 
+
+/**********************************************************
+ * Test: curl -v -X OPTIONS http://localhost:3030         *
+ **********************************************************
+ *                                                        *
+ * Optional CORS object properties with allowed types.    *
+ *                                                        *
+ * origin?: string | string[];                            *
+ * methods?: string[];                                    *
+ * headers?: string[];                                    *
+ * credentials?: boolean;                                 *
+ * maxAge?: number;                                       *
+ **********************************************************/
 import { Furi, ApplicationContext, Cors } from '@furi-server/furi';
 
 const app = new Furi();
@@ -42,7 +50,7 @@ const app = new Furi();
 app.use(Cors(
   {
     origin: ['http://localhost:3000', 'http://localhost:3001'],
-    methods: ['GET','OPTIONS','HEAD','PUT','PATCH','POST','DELETE'],
+    methods: ['GET', 'OPTIONS', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
     headers: ['Content-Type', 'Authorization'],
     credentials: true,
     maxAge: 86400, // 24 hours in seconds
