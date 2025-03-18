@@ -2,3 +2,8 @@ update.sh
 *.log
 .vscode/
 node_modules/
+
+deno.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
