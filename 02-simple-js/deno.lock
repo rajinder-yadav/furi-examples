@@ -3,7 +3,8 @@
   "specifiers": {
     "jsr:@std/assert@1": "1.0.11",
     "jsr:@std/internal@^1.0.5": "1.0.5",
-    "npm:@furi-server/furi@~0.7.1": "0.7.1"
+    "npm:@furi-server/furi@0.9": "0.9.0",
+    "npm:mime-types@^2.1.35": "2.1.35"
   },
   "jsr": {
     "@std/assert@1.0.11": {
@@ -27,8 +28,8 @@
         "which"
       ]
     },
-    "@furi-server/furi@0.7.1": {
-      "integrity": "sha512-21DgsqrTksmouzDM2lZd1KPNXUX1ay+GA2sTlebWhXyvOKhQWebHtYKH/tiHQi0O6GQKf7L8mcS6ufRL5rwt5A==",
+    "@furi-server/furi@0.9.0": {
+      "integrity": "sha512-HN7mb26SFWVHy1sRhbDMquWZ6Ik+sux2NAZPtSEpW2Qfk3HxvXoyUv5trn4dpa3H+mhT5Sg9dfC/PrC8xqinAg==",
       "dependencies": [
         "@deno/shim-deno",
         "yaml"
@@ -36,6 +37,15 @@
     },
     "isexe@3.1.1": {
       "integrity": "sha512-LpB/54B+/2J5hqQ7imZHfdU31OlgQqx7ZicVlkm9kzg9/w8GKLEcFfJl/t7DCEDueOyBAD6zCCwTO6Fzs0NoEQ=="
+    },
+    "mime-db@1.52.0": {
+      "integrity": "sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg=="
+    },
+    "mime-types@2.1.35": {
+      "integrity": "sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==",
+      "dependencies": [
+        "mime-db"
+      ]
     },
     "which@4.0.0": {
       "integrity": "sha512-GlaYyEb07DPxYCKhKzplCWBJtvxZcZMrL+4UkrTSJHHPyZU4mYYTv3qaOe77H7EODLSSopAUFAc6W8U4yqvscg==",
@@ -50,7 +60,8 @@
   "workspace": {
     "dependencies": [
       "jsr:@std/assert@1",
-      "npm:@furi-server/furi@~0.7.1"
+      "npm:@furi-server/furi@0.9",
+      "npm:mime-types@^2.1.35"
     ]
   }
 }
