@@ -17,14 +17,14 @@ app.get('/', (ctx: ApplicationContext) => {
 });
 
 /**
- * Register a cstom cleanup function.
+ * Register a custom cleanup function.
  */
 app.preShutdown(() => {
   LOG_INFO("==> Custom cleanup completed. <==");
 });
 
 /**
- * Call this to start a shutdown process based on an event or condition.
+ * Call this to start a graceful shutdown process based on an event or condition.
  * Check the log file 'furi.log'.
  */
 setTimeout(() => {

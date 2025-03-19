@@ -13,7 +13,7 @@ import {
   ApplicationContext,
   Routes,
   BaseRouterHandler,
-  Middleware
+  NextHandler
 } from '@furi-server/furi';
 
 /**
@@ -30,7 +30,7 @@ const USER_AGENT: string = 'FURI Node Server (v0.1)';
 const routes: Routes = {
   // Declare top-level middleware here.
   middleware: [
-    (ctx: ApplicationContext, next: Middleware) => {
+    (ctx: ApplicationContext, next: NextHandler) => {
 
       ctx.send('Top-level Middleware!\n');
       next();
@@ -43,7 +43,7 @@ const routes: Routes = {
       path: '/one',
       // Declare multiple handler using a "controller" array.
       controller: [
-        (ctx: ApplicationContext, next: Middleware) => {
+        (ctx: ApplicationContext, next: NextHandler) => {
           ctx.send('Middleware Pre!\n');
           next();
         },

@@ -11,7 +11,7 @@ npm run dev
 
 ## Default Server setting
 
-- Port: 8000
+- Port: 3030
 - Host: localhost
 - Environment: development
 

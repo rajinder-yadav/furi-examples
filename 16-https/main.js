@@ -10,11 +10,11 @@
 
 
 /**
- * Furi using as a HTTPS server.
+ * Furi running as a HTTPS server.
  *
  * The certificates can be found use the "ssl" directory.
  *
- * See furi.yaml, you will define the SSL private key and certificate there.
+ * See furi.yaml, you will declare the SSL private key and certificate files there.
  *
  * 1. Folder "ssl" contains a self-signed certificate.
  * 2. Folder "ssl/signed" contain a self-signed certificate with a passphrase.
@@ -41,4 +41,5 @@ const app = new Furi();
 app.get('/', (ctx) => {
   return "Welcome to Furi Server!";
 });
+
 app.start();

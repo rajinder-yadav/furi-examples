@@ -12,10 +12,10 @@ import {
   Furi,
   ApplicationContext,
   Routes,
-  Middleware
+  NextHandler
 } from '@furi-server/furi';
 
-function middlewareHandler (ctx: ApplicationContext, next: Middleware) {
+function middlewareHandler (ctx: ApplicationContext, next: NextHandler) {
   ctx.send('Middleware Pre!\n');
   next();
 }

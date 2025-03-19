@@ -8,10 +8,10 @@ The following "__server__" options are available:
 
 ```ts
 server: {
-env: string;                    // Run-time environment (development, production).
-port: number;                   // Port server will listen for connection requests.
-host: string;                   // host server will listen for connection requests.
-callback: null | (() => void);  // Callback function that will be called when server is ready.
+  env: string;                    // Run-time environment (development, production).
+  port: number;                   // Port server will listen for connection requests.
+  host: string;                   // host server will listen for connection requests.
+  callback: null | (() => void);  // Callback function that will be called when server is ready.
 },
 ```
 
@@ -24,7 +24,7 @@ deno run dev
 
 ## Default Server setting
 
-- Port: 8000
+- Port: 3030
 - Host: localhost
 - Environment: development
 
