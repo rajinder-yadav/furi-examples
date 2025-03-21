@@ -1,0 +1,14 @@
+### Set application state
+GET http://localhost:3030/set-state
+
+### Update application state
+GET http://localhost:3030/update-state
+
+### Read application state
+GET http://localhost:3030/get-state
+
+### Delete application state
+GET http://localhost:3030/delete-state
+
+### Reset application state
+GET http://localhost:3030/reset-state
