@@ -7,14 +7,8 @@
 #   enable: true
 #   terminal: true
 #   flushPeriod: 1000
+#   logDir: logs
 #   logFile: furi.log
 #   maxCount: 100
 #   mode: stream
-  # level: info
-
-cert:
-  key: ./ssl/key.pem
-  cert: ./ssl/cert.pem
-  # key:  ./ssl/passphrase/key.pem
-  # cert: ./ssl/passphrase/cert.pem
-  # passphrase: hello123
+#   level: info

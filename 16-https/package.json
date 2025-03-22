@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@furi-server/furi": "^0.13.3"
+  }
+}

@@ -3,11 +3,12 @@
 #   host: localhost
 #   env: development
 
-logger:
-  enable: true
-  level: info
+# logger:
+#   enable: true
 #   terminal: true
 #   flushPeriod: 1000
+#   logDir: logs
 #   logFile: furi.log
 #   maxCount: 100
 #   mode: stream
+#   level: info
