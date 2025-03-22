@@ -10,7 +10,7 @@
 #   logFile: furi.log
 #   maxCount: 100
 #   mode: stream
-#   level: info
+  # level: info
 
 cert:
   key: ./ssl/key.pem
